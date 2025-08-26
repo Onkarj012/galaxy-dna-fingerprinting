@@ -1,0 +1,31 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Astronomy
+astropy
+astroquery
+
+# Machine learning / Deep learning
+torch
+torchvision
+
+
+# Utilities
+pillow
+h5py
+tqdm
+requests
+pyyaml
+jupyterlab
+
+# Dev tools
+pytest
+black
+pre-commit

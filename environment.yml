@@ -1,0 +1,29 @@
+name: galaxy-dna
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - astropy
+  - astroquery
+  - pillow
+  - h5py
+  - jupyterlab
+  - notebook
+  - tqdm
+  - requests
+  - pyyaml
+  - ipython
+  - pytest
+  - black
+  - pre-commit
+  # Deep learning: prefer condaforge builds on macOS M1/M2/M4
+  - pytorch
+  - torchvision
+  - cpuonly  # if you don't want GPU; on mac use cpu builds or specialized builds
+  # OR for TensorFlow on mac: tensorflow-deps & tensorflow-macos (advanced)

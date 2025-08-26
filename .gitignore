@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist-info/
+.env
+.venv/
+venv/
+.envrc
+
+# Data
+data/
+*.h5
+*.npy
+
+# Jupyter
+
+.ipynb_checkpoints/
+.virtual_documents/
+.anaconda_projects/
+*.db
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Models / outputs
+models/
+outputs/

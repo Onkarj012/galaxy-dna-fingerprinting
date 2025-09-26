@@ -8,10 +8,7 @@ __pycache__/
 venv/
 .envrc
 
-# Data
-data/
-*.h5
-*.npy
+
 
 # Jupyter
 

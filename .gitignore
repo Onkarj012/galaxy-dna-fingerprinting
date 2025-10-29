@@ -1,97 +1,28 @@
-# --- OS-specific ---
-.DS_Store
-Thumbs.db
-
-# --- Python ---
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-
-# --- Virtual environments ---
+*.egg-info/
+.dist-info/
+.env
 .venv/
 venv/
-ENV/
-env/
+.envrc
 
-# --- Packaging / build ---
-build/
-dist/
-.eggs/
-*.egg-info/
-pip-wheel-metadata/
+datafinal/
+datafinal2/
 
-# --- Testing / coverage ---
-.pytest_cache/
-.coverage*
-htmlcov/
+# Jupyter
 
-# --- Type checkers ---
-.mypy_cache/
-.pyre/
-.pytype/
-
-# --- Jupyter ---
 .ipynb_checkpoints/
-.jupyter/
-
-# --- IDE / Editors ---
-.vscode/
-.idea/
-
-# --- Logs ---
-*.log
-
-# --- Databases / binaries ---
+.virtual_documents/
+.anaconda_projects/
 *.db
-*.pth
+# OS
+.DS_Store
 
-# --- Project data (large, generated, or external) ---
-# Ignore large datasets to avoid accidental commits
+# VSCode
+.vscode/
 
-/datafinal/
-/datafinal2/
-
-# --- Misc ---
-.anaconda_backup/
-
-# --- Environments / secrets ---
-.env
-.env.*
-*.env
-.python-version
-
-# --- Caches / temp ---
-.cache/
-.ruff_cache/
-cache/
-tmp/
-temp/
-
-# --- Data / results (often large) ---
-# Adjust these if you intentionally version small samples
-
-datasets/
-dataset/
-samples/
-sample_data/
-outputs/
-output/
-results/
-reports/
-figures/
-
-# --- Models / checkpoints ---
+# Models / outputs
 models/
-checkpoints/
-weights/
-
-# --- Coverage alt ---
-coverage/
-
-# --- Node (if any tooling/scripts use it) ---
-node_modules/
-
-# --- OS / misc ---
-*.swp
-*.swo
+outputs/
